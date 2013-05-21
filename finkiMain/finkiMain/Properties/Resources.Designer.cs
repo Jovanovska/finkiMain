@@ -60,10 +60,22 @@ namespace finkiMain.Properties {
             }
         }
         
+        internal static System.IO.UnmanagedMemoryStream button_16 {
+            get {
+                return ResourceManager.GetStream("button_16", resourceCulture);
+            }
+        }
+        
         internal static System.Drawing.Bitmap finkiman {
             get {
                 object obj = ResourceManager.GetObject("finkiman", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.IO.UnmanagedMemoryStream HeyThere {
+            get {
+                return ResourceManager.GetStream("HeyThere", resourceCulture);
             }
         }
     }

@@ -47,6 +47,7 @@
             // 
             // kopce1
             // 
+            this.kopce1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.kopce1.Font = new System.Drawing.Font("Broadway", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.kopce1.ForeColor = System.Drawing.Color.Gainsboro;
             this.kopce1.GradientBottom = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
@@ -61,6 +62,7 @@
             // 
             // btnStart
             // 
+            this.btnStart.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnStart.Font = new System.Drawing.Font("Broadway", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStart.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnStart.GradientBottom = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
@@ -71,6 +73,7 @@
             this.btnStart.TabIndex = 1;
             this.btnStart.Text = "S t a r t";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // Form1
             // 
@@ -83,6 +86,7 @@
             this.MinimumSize = new System.Drawing.Size(300, 300);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
